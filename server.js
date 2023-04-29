@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const { Configuration, OpenAIApi } = require("openai");
 const cors = require('cors');
 const dotenv = require('dotenv');
+const fs = require('fs');
 
 dotenv.config();
 
@@ -18,17 +19,52 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const openaiConfig = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
 });
-const openaiClient = new OpenAIApi(openaiConfig);
+const openai = new OpenAIApi(openaiConfig);
 
 // Get Api to test the server
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
+//upload file to fine tune the model
+// async function upload() {
+//     try {
+//         const response = await openai.createFile(
+//             fs.createReadStream('./data.json'),
+//             "fine-tune"
+//         );
+//         console.log('File ID: ', response.data.id)
+//         return response.data.id
+//     } catch (err) {
+//         console.log('err: ', err)
+//     }
+// }
+
+// const fileId = upload()
+
+// console.log('fileId: ', fileId)
+
+// async function createFineTune() {
+//     try {
+//         const response = await openai.createFineTune({
+//             training_file: fileId,
+//             model: 'davinci'
+//         })
+//         console.log('response: ', response)
+//         return response.data.id
+//     } catch (err) {
+//         console.log('error: ', err.response.data.error)
+//     }
+// }
+
+// const fineTuneId = createFineTune()
+
+// console.log('fineTuneId: ', fineTuneId)
+
 // fine tune the openai model on custom text and generate the answer for the questions
 const generateText = async (prompt) => {
     try {
-        const fineTuneData = './data.txt'
+        const fineTuneData = './data.json'
         if (!fineTuneData) {
             throw new Error('Fine-tune data not provided');
         }
