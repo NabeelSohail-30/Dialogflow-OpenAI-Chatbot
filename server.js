@@ -25,8 +25,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-const generateText = async (prompt, fineTuneData) => {
+// fine tune the openai model on custom text and generate the answer for the questions
+const generateText = async (prompt) => {
     try {
+        const fineTuneData = './data.txt'
         if (!fineTuneData) {
             throw new Error('Fine-tune data not provided');
         }
@@ -34,7 +36,7 @@ const generateText = async (prompt, fineTuneData) => {
         let modelId;
         const trainingData = {
             file: fineTuneData,
-            model: 'text-davinci-003',
+            model: 'davinci',
             epoch: 3,
             batchSize: 1,
             learningRate: 0.0001,
@@ -42,7 +44,7 @@ const generateText = async (prompt, fineTuneData) => {
             validationSplit: 0.1,
             maxChars: 10000,
         };
-        const response = await openai.training.create(trainingData);
+        const response = await openaiClient.training.create(trainingData);
 
         if (response.status !== 'success') {
             throw new Error('Training failed');
@@ -50,8 +52,8 @@ const generateText = async (prompt, fineTuneData) => {
 
         modelId = response.data.model.id;
 
-        const responseChat = await openai.completions.create({
-            engine: 'text-davinci-003',
+        const responseChat = await openaiClient.completions.create({
+            engine: 'davinci',
             prompt: `Human: ${prompt}\nAI: `,
             maxTokens: 500,
             n: 1,
@@ -85,7 +87,7 @@ app.post('/webhook', async (req, res) => {
                 }]
             });
         } else {
-            const result = await generateText(queryText, './fineTuneData.txt');
+            const result = await generateText(queryText);
             if (result.status === 1) {
                 res.send({ fulfillmentText: result.response });
             } else {
