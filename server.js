@@ -100,9 +100,10 @@ app.post('/webhook', async (req, res) => {
             });
         } else if (intent === 'Default Fallback Intent') {
             const result = await generateText(queryText);
+            console.log(result);
             res.send({
                 fulfillmentMessages: [{
-                    text: { text: [result] }
+                    text: { text: ['sample'] }
                 }]
             });
         }
