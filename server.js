@@ -107,9 +107,17 @@ app.post('/webhook', async (req, res) => {
         } else if (intent === 'Default Fallback Intent') {
             const result = await generateText(queryText);
             if (result.status === 1) {
-                res.send({ fulfillmentText: result.response });
+                res.send({
+                    fulfillmentMessages: [{
+                        text: { text: [result.response] }
+                    }]
+                });
             } else {
-                res.send({ fulfillmentText: `Sorry, I'm not able to help with that.` });
+                res.send({
+                    fulfillmentMessages: [{
+                        text: { text: ['Sorry!, I am unable to handle your query'] }
+                    }]
+                });
             }
         }
     } catch (error) {
