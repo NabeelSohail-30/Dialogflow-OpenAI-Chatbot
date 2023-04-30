@@ -104,7 +104,7 @@ app.post('/webhook', async (req, res) => {
                     text: { text: [`Hi, I'm your personal assistant. How can I help you?`] }
                 }]
             });
-        } else {
+        } else if (intent === 'Default Fallback Intent') {
             const result = await generateText(queryText);
             if (result.status === 1) {
                 res.send({ fulfillmentText: result.response });
