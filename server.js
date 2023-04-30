@@ -101,7 +101,7 @@ app.post('/webhook', async (req, res) => {
         if (intent === 'Default Welcome Intent') {
             res.send({
                 fulfillmentMessages: [{
-                    text: { text: [`Hi, I'm your personal assistant. How can I help you?`] }
+                    text: { text: [`Hi There, Welcome to MCU Assistant! I'm here to help you explore the Marvel Cinematic Universe. Ask me anything about your favorite characters, movies, or TV shows and I'll do my best to provide you with the information you need. Let's get started!`] }
                 }]
             });
         } else if (intent === 'Default Fallback Intent') {

@@ -1,12 +1,510 @@
-Saylani Welfare Trust is a non-profit organization based in Karachi, Pakistan. The organization was founded in 1999 by Maulana Bashir Ahmed Farooqi, a religious scholar, and social worker. The organization started as a small effort to provide meals to the needy, and it has now expanded to provide various services to underprivileged people.
-The organization is managed by a board of trustees, which is headed by Maulana Bashir Ahmed Farooqi. The board of trustees comprises of individuals from different fields, including religious scholars, businessmen, and professionals. The trustees oversee the overall functioning of the organization and ensure that the programs are implemented effectively.
-The organization has a dedicated team of professionals and volunteers who work tirelessly to provide services to the people. The team comprises of doctors, engineers, social workers, and other professionals who bring their expertise and skills to support the organization's programs.
-Saylani Welfare Trust has a transparent financial system and maintains detailed records of its finances. The organization receives funding from various sources, including donations from individuals and corporations, Zakat, and other charitable contributions. The organization ensures that the funds are utilized effectively and efficiently to support its programs.
-Over the years, Saylani Welfare Trust has received numerous awards and recognition for its services to the community. In 2015, the organization was awarded the Sitara-e-Imtiaz, one of the highest civil awards in Pakistan, for its contribution to social welfare.
-One of the significant programs run by Saylani Welfare Trust is the Saylani Mass Training and Job Placement Program.
-The Saylani Mass Training and Job Placement Program is designed to provide free technical and vocational training to unemployed youth, which will enable them to earn a decent livelihood. The program aims to provide training in different fields, such as computer programming, mobile phone repairing, and home appliance repairing. Once the training is completed, Saylani Welfare Trust helps these individuals to find suitable job opportunities.
-To support its training programs, Saylani Welfare Trust has partnered with a private educational institution in Karachi called the Sir Syed Institute of Technology (SMIT). SMIT is a technical college that offers courses in various fields, such as mechanical engineering, electrical engineering, and computer science. The college has state-of-the-art facilities and highly qualified faculty members who provide quality education to the students.
-Saylani Welfare Trust and SMIT have signed a Memorandum of Understanding (MoU) to collaborate on various programs, including the Saylani Mass Training and Job Placement Program. Under the MoU, SMIT provides training facilities and technical expertise, while Saylani Welfare Trust provides financial support and manages the overall program.
-The collaboration between Saylani Welfare Trust and SMIT has been a success, with thousands of students graduating from the training programs and finding employment opportunities. The program has not only provided much-needed support to the unemployed youth in Pakistan but has also helped in promoting technical and vocational education in the country.
-In addition to the Saylani Mass Training and Job Placement Program, Saylani Welfare Trust and SMIT also collaborate on other initiatives, such as providing scholarships to deserving students and organizing health camps for the underprivileged.
-In conclusion, Saylani Welfare Trust and SMIT have formed a strong partnership to promote technical and vocational education and provide job opportunities to the unemployed youth in Pakistan. The collaboration has been a success, and it is hoped that it will continue to benefit the people of Pakistan in the years to come.
+Marvel Studios is an American film studio that is a subsidiary of The Walt Disney Company. Founded in 1993 by Avi Arad and Toy Biz, Marvel Studios is primarily known for producing the Marvel Cinematic Universe (MCU), a shared universe of superhero films based on characters from Marvel Comics. The MCU has become one of the most successful and lucrative franchises in film history, grossing over $22 billion at the global box office.
+Marvel Comics was founded in 1939 by Martin Goodman as Timely Publications. Over the years, the company would go through a number of name changes, including Atlas Comics and Marvel Comics Group, before settling on Marvel Comics in the 1960s. In the 1960s, Marvel Comics was revolutionized by the work of writer Stan Lee and artists Jack Kirby and Steve Ditko, who created a number of iconic characters including Spider-Man, the X-Men, the Avengers, and the Fantastic Four.
+Marvel Comics continued to grow in popularity throughout the 1970s and 1980s, but in the 1990s, the comic book industry as a whole suffered a major downturn. Marvel Comics was forced to declare bankruptcy in 1996, and the company was restructured with the help of investment firm Perelman Partners.
+In 1998, Marvel Studios was founded as a subsidiary of Marvel Comics. The studio's first film, Blade, was released in 1998 and was a critical and commercial success. However, it was not until the release of Iron Man in 2008 that Marvel Studios began to truly revolutionize the superhero film genre.
+The Marvel Cinematic Universe (MCU) is a shared universe of superhero films produced by Marvel Studios. The universe is based on characters from Marvel Comics and is connected through a series of interlocking storylines and shared characters. The MCU has become one of the most successful and lucrative franchises in film history, grossing over $22 billion at the global box office.
+By 2005, Marvel Entertainment had begun planning to produce its own films independently and distribute them through Paramount Pictures.[1] In June 2007, Marvel Studios raised secured funding from a $525 million revolving credit facility with Merrill Lynch.[2] Marvel's plan was to release individual films for their main characters and then merge them in a crossover film.[3]
+
+In November 2013, Marvel Studios head Kevin Feige said that "in an ideal world" releases each year would include one film based on an existing character and one featuring a new character, saying it's "a nice rhythm" in that format. While not always the case, as evident by the 2013 releases of Iron Man 3 and Thor: The Dark World, he said it is "certainly something to aim for".[4] Feige expanded on this in July 2014, saying, "I don't know that we'll keep to [that model] every year, but we're doing that in 2014 and 2015, so I think it would be fun to continue that sort of thing".[5] After the reveal of multiple release dates for films through 2019 in July 2014,[6] in which some had three films scheduled, Feige stated there was not "a number cruncher" telling the studio to increase their film output, but rather it was about "managing [existing] franchises, film to film, and when we have a team ready to go, why tell them to go away for four years just because we don't have a slot? We'd rather find a way to keep that going."[7] After the titles were revealed in October 2014,[8] Feige said, "The studio's firing on all cylinders right now ... which made us comfortable for the first time ... to increase to three films a year [in 2017 and 2018] instead of just two, without changing our methods."[9] On the potential for "superhero fatigue", Feige stated, though each of the films are based on the Marvel Comics and feature the "Marvel Studios" logo, he believed each film had their own distinctions to help differentiate them from other MCU and superhero films. For example, he noted how the 2016 releases of the studio, Captain America: Civil War and Doctor Strange, were "two completely different movies". The studio hoped to continue to surprise audiences and ensure the studio was "not falling into things becoming too similar".[10]
+
+In February 2014, Feige stated that Marvel Studios wants to mimic the "rhythm" that the comic books have developed, by having the characters appear in their own films, and then come together, much like "a big event or crossover series",[11] with Avengers films acting as "big, giant linchpins".[12] On expanding the characters in the universe and letting individual films breathe and work on their own, as opposed to having Avenger team-ups outside of Avengers films, Feige stated, it is about "teaching the general movie-going audience about the notion of the characters existing separately, coming together for specific events and going away and existing separately in their own worlds again. Just like comic readers have been doing for decades and decades ... people sort of are accepting that there's just a time when they should be together and there's a time when they're not."[13]
+
+In April 2016, on moving the universe to Phase Four and reflecting on the first three, Feige said, "I think there will be a finality to moments of Phase Three, as well as new beginnings that will mark a different, a very different, a distinctively different chapter in what will someday be a complete first saga made up of three Phases." Frequent director Joe Russo added Phase Three was the "deconstruction Phase" of the MCU, beginning with Captain America: Civil War (2016) leading into "the culmination films" of Avengers: Infinity War (2018) and Avengers: Endgame (2019).[14] A year later, Feige felt after the conclusion of Phase Three, Marvel might abandon grouping the films by Phases, saying, "it might be a new thing".[15] Feige mentioned that Avengers: Endgame would provide "a definitive end" to the films and storylines preceding it, with the franchise having "two distinct periods. Everything before [Endgame] and everything after". Many of the planned films following Endgame were intentionally "completely different" from the films in The Infinity Saga.[16]
+
+In July 2019, Feige announced the Phase Four slate at San Diego Comic-Con, consisting of films and television event series on Disney+.[17] In December 2020, at Disney's Investor Day, Marvel Studios provided updates to previously announced films for the Phase.[18][19] In late June 2022, Feige said that as Phase Four was nearing its conclusion, he felt audiences would begin to see where the next saga of the MCU would be heading, and added that there had been many clues throughout the Phase to what that would be. He said Marvel Studios would be a "little more direct" on their future plans in the following months to provide audiences with "the bigger picture [so they] can see a tiny, tiny bit more of the roadmap".[20] In July 2022, Feige unveiled the Phase Five and Six slates at San Diego Comic-Con, similarly consisting of films and Disney+ series, and revealed that these three Phases would make up "the Multiverse Saga".[21]
+
+On how much story is developed for future films of the universe, Feige said in September 2015 there are "broad strokes" though sometime "super-specific things". He continued that there was enough leeway to "have room to sway and to move and to go and to surprise ourselves in places that we end up" and that each film would feel satisfying on its own, but still interconnected to the larger universe and as if it had been planned years ahead of time. The studio also has various contingency plans for the direction of all of their films, in the event they are unable to secure a certain actor to reprise a role, or re-acquire the film rights to a character, such as was done in February 2015 with Spider-Man.[22]
+The first film in the MCU was Iron Man, released in 2008. The film starred Robert Downey Jr. as Tony Stark, a billionaire industrialist who creates a high-tech suit of armor to become the superhero Iron Man. Iron Man was a critical and commercial success, grossing over $585 million at the global box office.
+Following the success of Iron Man, Marvel Studios released a number of other films that would become part of the MCU, including The Incredible Hulk (2008), Thor (2011), Captain America: The First Avenger (2011), and The Avengers (2012). The Avengers brought together a number of the MCU's main characters, including Iron Man, Captain America, Thor, and the Hulk, and grossed over $1.5 billion at the global box office.
+Since the release of The Avengers, the MCU has continued to expand with a number of sequels and spin-off films, including Guardians of the Galaxy (2014), Ant-Man (2015), Doctor Strange (2016), Spider-Man: Homecoming (2017), and Black Panther (2018). The MCU has also expanded to television with a number of series produced for the streaming service Disney+, including WandaVision (2021) and The Falcon and The Winter Soldier (2021).
+In addition to its films and television series, the MCU has also had a significant impact on popular culture, with its characters and stories inspiring a wide range of merchandise, comic books, and fan communities.
+
+Marvel Cinematic Universe has currently 40 movies and around 20 Televison Shows which have been streamed on different OTT platforms.
+Here is the complete detail about its movies, tv shows, famous characters, and much more.
+Marvel Studios releases its films in groups called "Phases"
+The films and tv shows from Phase One through Phase Three are collectively known as "The Infinity Saga"
+The films and tv shows from Phase Four through Phase Six are collectively known as "The Multiverse Saga"
+
+Details of all the movies under the banner of Marvel Cinematic Universe
+
+Name: Iron Man
+Release Date: May 2, 2008
+Phase: Phase One (Infinity Saga)
+Star Cast: Robert Downey Jr., Gwyneth Paltrow, Terrence Howard, Jeff Bridges
+Director: Jon Favreau
+Writers: Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway
+Overview: "Iron Man" is a superhero film based on the Marvel Comics character of the same name. The film tells the story of Tony Stark, a billionaire industrialist who creates a high-tech suit of armor to become the superhero Iron Man. After being kidnapped by terrorists who want his technology, Stark must use his suit to fight against evil and protect the world. The film was a critical and commercial success, grossing over $585 million at the global box office and launching the Marvel Cinematic Universe.
+
+Name: The Incredible Hulk
+Release Date: June 13, 2008
+Phase: Phase One (Infinity Saga)
+Star Cast: Edward Norton, Liv Tyler, Tim Roth, William Hurt
+Director: Louis Leterrier
+Writers: Zak Penn
+Overview: "The Incredible Hulk" is a superhero film based on the Marvel Comics character of the same name. The film follows the story of Bruce Banner, a scientist who transforms into a giant green monster known as the Hulk whenever he becomes angry. Banner is pursued by General Thaddeus Ross, who wants to use his power for military purposes, and by Emil Blonsky, a soldier who volunteers for an experiment that gives him superhuman strength to try and capture the Hulk. The film was a box office success, grossing over $263 million worldwide, but received mixed reviews from critics.
+
+Name: Iron Man 2
+Release Date: May 7, 2010
+Phase: Phase One (Infinity Saga)
+Star Cast: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson, Mickey Rourke, Sam Rockwell
+Director: Jon Favreau
+Writers: Justin Theroux
+Overview: "Iron Man 2" is a superhero film based on the Marvel Comics character of the same name. The film picks up after the events of the first "Iron Man" movie, with Tony Stark revealing his identity as Iron Man and facing pressure from the government to turn over his technology. Meanwhile, a rival industrialist and a Russian scientist both plot to use their own versions of Stark's technology against him. The film also introduces the character of Natasha Romanoff, also known as Black Widow, who is recruited by Stark to help him in his fight against his enemies. The film was a commercial success, grossing over $623 million worldwide, but received mixed reviews from critics.
+
+Name: Thor
+Release Date: May 6, 2011
+Phase: Phase One (Infinity Saga)
+Star Cast: Chris Hemsworth, Natalie Portman, Tom Hiddleston, Anthony Hopkins, Stellan Skarsgård, Idris Elba
+Director: Kenneth Branagh
+Writers: Ashley Edward Miller, Zack Stentz, Don Payne
+Overview: "Thor" is a superhero film based on the Marvel Comics character of the same name. The film tells the story of Thor, the Norse god of thunder, who is banished from his home of Asgard and sent to live on Earth after he angers his father Odin. On Earth, Thor learns humility and falls in love with a human scientist named Jane Foster, but he must also confront his evil adopted brother Loki, who has plans to take over Asgard. The film was a commercial success, grossing over $449 million worldwide, and received generally positive reviews from critics.
+
+Name: Captain America: The First Avenger
+Release Date: July 22, 2011
+Phase: Phase One (Infinity Saga)
+Star Cast: Chris Evans, Hayley Atwell, Sebastian Stan, Tommy Lee Jones, Hugo Weaving
+Director: Joe Johnston
+Writers: Christopher Markus, Stephen McFeely
+Overview: "Captain America: The First Avenger" is a superhero film based on the Marvel Comics character of the same name. The film takes place during World War II and tells the story of Steve Rogers, a frail young man who is transformed into a super soldier known as Captain America. With the help of Peggy Carter and Howard Stark, Rogers fights against the evil organization HYDRA, led by the villainous Red Skull, who is seeking to use a powerful energy source to take over the world. The film was a commercial success, grossing over $370 million worldwide, and received generally positive reviews from critics.
+
+Name: The Avengers
+Release Date: May 4, 2012
+Phase: Phase One (Infinity Saga)
+Star Cast: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Tom Hiddleston
+Director: Joss Whedon
+Writers: Joss Whedon
+Overview: "The Avengers" is a superhero film based on the Marvel Comics superhero team of the same name. The film brings together the characters of Iron Man, Captain America, Thor, the Hulk, Black Widow, and Hawkeye, as they team up to fight the villainous Loki and his army of alien invaders. The film also introduces the character of S.H.I.E.L.D. director Nick Fury, who is responsible for assembling the team. "The Avengers" was a critical and commercial success, grossing over $1.5 billion worldwide and becoming the third-highest-grossing film of all time at the time of its release.
+
+Name: Iron Man 3
+Release Date: May 3, 2013
+Phase: Phase Two (Infinity Saga)
+Star Cast: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Guy Pearce, Rebecca Hall, Ben Kingsley
+Director: Shane Black
+Writers: Drew Pearce, Shane Black
+Overview: "Iron Man 3" is a superhero film based on the Marvel Comics character of the same name. The film takes place after the events of "The Avengers" and finds Tony Stark struggling with post-traumatic stress disorder while also dealing with a new threat in the form of the Mandarin, a mysterious terrorist who is bombing locations around the world. As Stark investigates the Mandarin's activities, he also has to deal with the return of an old enemy and a crisis in his personal life with Pepper Potts. The film was a commercial success, grossing over $1.2 billion worldwide, and received mixed reviews from critics.
+
+Name: Thor: The Dark World
+Release Date: November 8, 2013
+Phase: Phase Two (Infinity Saga)
+Star Cast: Chris Hemsworth, Natalie Portman, Tom Hiddleston, Anthony Hopkins, Stellan Skarsgård, Idris Elba, Christopher Eccleston
+Director: Alan Taylor
+Writers: Christopher Yost, Christopher Markus, Stephen McFeely
+Overview: "Thor: The Dark World" is a superhero film based on the Marvel Comics character of the same name. The film takes place after the events of "The Avengers" and finds Thor and his allies facing off against Malekith, the leader of the Dark Elves, who seeks to use a powerful weapon known as the Aether to destroy the Nine Realms. Along the way, Thor must also confront his complicated relationship with Jane Foster and the treacherous actions of his adoptive brother Loki. The film was a commercial success, grossing over $644 million worldwide, but received mixed reviews from critics.
+
+Name: Captain America: The Winter Soldier
+Release Date: April 4, 2014
+Phase: Phase Two (Infinity Saga)
+Star Cast: Chris Evans, Scarlett Johansson, Sebastian Stan, Anthony Mackie, Cobie Smulders, Frank Grillo, Emily VanCamp, Hayley Atwell, Robert Redford, Samuel L. Jackson
+Director: Anthony Russo, Joe Russo
+Writers: Christopher Markus, Stephen McFeely
+Overview: "Captain America: The Winter Soldier" is a superhero film based on the Marvel Comics character of the same name. The film takes place two years after the events of "The Avengers" and finds Steve Rogers, aka Captain America, working with S.H.I.E.L.D. and trying to adjust to life in the modern world. However, when a conspiracy within S.H.I.E.L.D. is revealed, Rogers must team up with Black Widow and new ally Falcon to take down a powerful new enemy known as the Winter Soldier. The film was a critical and commercial success, grossing over $714 million worldwide and receiving widespread praise for its action sequences, performances, and political themes.
+
+Name: Guardians of the Galaxy
+Release Date: August 1, 2014
+Phase: Phase Two (Infinity Saga)
+Star Cast: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Lee Pace, Michael Rooker, Karen Gillan, Djimon Hounsou, John C. Reilly, Glenn Close, Benicio Del Toro
+Director: James Gunn
+Writers: James Gunn, Nicole Perlman
+Overview: "Guardians of the Galaxy" is a superhero film based on the Marvel Comics superhero team of the same name. The film follows Peter Quill, aka Star-Lord, and his team of misfits including Gamora, Drax, Rocket, and Groot as they team up to stop Ronan the Accuser from using an all-powerful artifact to destroy the galaxy. Along the way, they also discover the truth about Peter's mysterious past and form an unlikely family. The film was a commercial and critical success, grossing over $773 million worldwide and receiving widespread praise for its humor, soundtrack, and ensemble cast performances.
+
+Name: Avengers: Age of Ultron
+Release Date: May 1, 2015
+Phase: Phase Two (Infinity Saga)
+Star Cast: Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Jeremy Renner, James Spader, Samuel L. Jackson, Don Cheadle, Aaron Taylor-Johnson, Elizabeth Olsen, Paul Bettany
+Director: Joss Whedon
+Writers: Joss Whedon
+Overview: "Avengers: Age of Ultron" is a superhero film based on the Marvel Comics superhero team of the same name. The film follows the Avengers as they attempt to take down the rogue A.I. Ultron, who seeks to wipe out humanity and create a new world order. Along the way, they encounter new allies such as the Maximoff twins, Quicksilver and Scarlet Witch, and struggle with personal conflicts and tensions within the team. The film was a commercial success, grossing over $1.4 billion worldwide, but received mixed reviews from critics who felt it was overstuffed and lacked the freshness of the first Avengers film.
+
+Name: Ant-Man
+Release Date: July 17, 2015
+Phase: Phase Two (Infinity Saga)
+Star Cast: Paul Rudd, Evangeline Lilly, Corey Stoll, Bobby Cannavale, Michael Peña, Tip "T.I." Harris, Anthony Mackie, Wood Harris, Judy Greer, David Dastmalchian
+Director: Peyton Reed
+Writers: Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd
+Overview: "Ant-Man" is a superhero film based on the Marvel Comics character of the same name. The film follows Scott Lang, a former thief who is recruited by Dr. Hank Pym to become the new Ant-Man and protect the secret of the shrinking technology from falling into the wrong hands. Lang must navigate a series of heists while also dealing with personal struggles, including his relationship with his daughter and his ex-wife's new fiancé. The film received positive reviews for its humor, action, and Rudd's performance, grossing over $519 million worldwide and spawning a sequel, "Ant-Man and The Wasp."
+
+Name: Captain America: Civil War
+Release Date: May 6, 2016
+Phase: Phase Three (Infinity Saga)
+Star Cast: Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan, Anthony Mackie, Don Cheadle, Jeremy Renner, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Paul Rudd, Emily VanCamp, Tom Holland
+Director: Anthony Russo, Joe Russo
+Writers: Christopher Markus, Stephen McFeely
+Overview: "Captain America: Civil War" is a superhero film based on the Marvel Comics character Captain America. The film follows the Avengers as they are split into two opposing factions: one led by Captain America, who wishes to protect the freedom of the Avengers, and the other led by Iron Man, who believes in government oversight and regulation. As the two factions clash, they must also face a new threat in the form of the villainous Helmut Zemo. The film received critical acclaim for its action, themes, and performances, grossing over $1.1 billion worldwide and setting up future events in the Marvel Cinematic Universe.
+
+Name: Doctor Strange
+Release Date: November 4, 2016
+Phase: Phase Three (Infinity Saga)
+Star Cast: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Mads Mikkelsen, Tilda Swinton
+Director: Scott Derrickson
+Writers: Jon Spaihts, Scott Derrickson, C. Robert Cargill
+Overview: "Doctor Strange" is a superhero film based on the Marvel Comics character of the same name. The film follows Stephen Strange, a neurosurgeon who, after a tragic car accident, discovers the mystical arts and trains under the Ancient One to become a powerful sorcerer. As he learns to master his powers, he must also confront the villainous Kaecilius, who seeks to summon the dark dimension and bring about the end of the world. The film received positive reviews for its visual effects, performances, and origin story, grossing over $677 million worldwide and introducing a new hero into the Marvel Cinematic Universe.
+
+Name: Guardians of the Galaxy Vol. 2
+Release Date: May 5, 2017
+Phase: Phase Three (Infinity Saga)
+Star Cast: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Michael Rooker, Karen Gillan, Pom Klementieff, Elizabeth Debicki, Kurt Russell
+Director: James Gunn
+Writers: James Gunn
+Overview: "Guardians of the Galaxy Vol. 2" is a superhero film based on the Marvel Comics superhero team of the same name. The film continues the adventures of the Guardians as they discover the true parentage of Peter Quill/Star-Lord and must battle a new enemy, the powerful Ego, who seeks to destroy the universe. Along the way, they are joined by new allies, including Mantis and the Ravagers. The film received positive reviews for its humor, characters, and action, grossing over $863 million worldwide and setting up future events in the Marvel Cinematic Universe.
+
+Name: Spider-Man: Homecoming
+Release Date: July 7, 2017
+Phase: Phase Three (Infinity Saga)
+Star Cast: Tom Holland, Michael Keaton, Jon Favreau, Zendaya, Marisa Tomei, Robert Downey Jr.
+Director: Jon Watts
+Writers: Jonathan Goldstein, John Francis Daley, Jon Watts, Christopher Ford, Chris McKenna, Erik Sommers
+Overview: "Spider-Man: Homecoming" is a superhero film based on the Marvel Comics character Spider-Man. The film follows the teenage Peter Parker as he tries to balance his life as a high school student with his superhero duties as Spider-Man. When a new villain, the Vulture, emerges and threatens New York City, Peter must team up with his mentor Tony Stark/Iron Man to stop him. The film received positive reviews for its humor, characters, and action, grossing over $880 million worldwide and establishing Tom Holland as the new face of Spider-Man in the Marvel Cinematic Universe.
+
+Name: Thor: Ragnarok
+Release Date: November 3, 2017
+Phase: Phase Three (Infinity Saga)
+Star Cast: Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Idris Elba, Jeff Goldblum, Tessa Thompson, Karl Urban, Mark Ruffalo, Anthony Hopkins
+Director: Taika Waititi
+Writers: Eric Pearson, Craig Kyle, Christopher Yost
+Overview: "Thor: Ragnarok" is a superhero film based on the Marvel Comics character Thor. The film follows Thor as he is imprisoned on the planet Sakaar and forced to fight in gladiatorial games against his old friend, the Hulk. Meanwhile, the villainous Hela, the goddess of death, threatens to destroy Asgard and everything Thor holds dear. With the help of new allies, including Valkyrie and his mischievous brother Loki, Thor must stop Hela and save his people. The film received positive reviews for its humor, colorful visuals, and reinvention of the character, grossing over $854 million worldwide and becoming one of the highest-grossing films of 2017.
+
+Name: Black Panther
+Release Date: February 16, 2018
+Phase: Phase Three (Infinity Saga)
+Star Cast: Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, Angela Bassett, Forest Whitaker, Andy Serkis
+Director: Ryan Coogler
+Writers: Ryan Coogler, Joe Robert Cole
+Overview: "Black Panther" is a superhero film based on the Marvel Comics character of the same name. The film follows T'Challa, the king of Wakanda, as he returns home to his isolated and technologically advanced African nation following the death of his father. As he takes up the mantle of Black Panther, T'Challa must defend Wakanda against threats both internal and external, including the villainous Killmonger, who seeks to take the throne and use Wakanda's resources to fuel a global revolution. The film received critical acclaim for its cultural significance, themes of identity and representation, and its stunning visual effects, grossing over $1.3 billion worldwide and becoming the highest-grossing solo superhero film of all time in the United States.
+
+Name: Avengers: Infinity War
+Release Date: April 27, 2018
+Phase: Phase Three (Infinity Saga)
+Star Cast: Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, Chris Pratt
+Director: Anthony and Joe Russo
+Writers: Christopher Markus, Stephen McFeely
+Overview: "Avengers: Infinity War" is a superhero film and the 19th film in the Marvel Cinematic Universe. The film follows the Avengers and their allies as they team up to stop the powerful alien warlord Thanos from collecting the Infinity Stones, which would give him the power to wipe out half of all life in the universe. The film features a large ensemble cast from across the Marvel Cinematic Universe and was praised for its action sequences, character interactions, and shocking ending, which left audiences eagerly anticipating the next installment. The film grossed over $2 billion worldwide and became the fourth highest-grossing film of all time at the time of its release.
+
+Name: Ant-Man and The Wasp
+Release Date: July 6, 2018
+Phase: Phase Three (Infinity Saga)
+Star Cast: Paul Rudd, Evangeline Lilly, Michael Peña, Walton Goggins, Bobby Cannavale, Judy Greer, Tip "T.I." Harris, David Dastmalchian, Hannah John-Kamen, Abby Ryder Fortson, Randall Park, Michelle Pfeiffer, Laurence Fishburne, Michael Douglas
+Director: Peyton Reed
+Writers: Chris McKenna, Erik Sommers, Paul Rudd, Andrew Barrer, Gabriel Ferrari
+Overview: "Ant-Man and The Wasp" is a superhero film and the 20th film in the Marvel Cinematic Universe. The film follows Scott Lang, aka Ant-Man, as he teams up with Hope van Dyne, aka The Wasp, and her father Dr. Hank Pym to embark on a dangerous mission to rescue Janet van Dyne, Hope's mother, from the quantum realm. Along the way, they encounter a number of obstacles, including a mysterious new villain named Ghost who has her own plans for the quantum realm. The film was praised for its humor, action, and performances from the cast, particularly the chemistry between Paul Rudd and Evangeline Lilly. The film grossed over $620 million worldwide.
+
+Name: Captain Marvel
+Release Date: March 8, 2019
+Phase: Phase Three (Infinity Saga)
+Star Cast: Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Djimon Hounsou, Lee Pace, Lashana Lynch, Gemma Chan, Annette Bening, Clark Gregg, Jude Law
+Director: Anna Boden, Ryan Fleck
+Writers: Anna Boden, Ryan Fleck, Geneva Robertson-Dworet
+Overview: "Captain Marvel" is a superhero film and the 21st film in the Marvel Cinematic Universe. The film is set in the 1990s and follows the story of Carol Danvers, a former U.S. Air Force pilot who becomes Captain Marvel after being exposed to alien technology. As Captain Marvel, she must stop a war between two alien races while also discovering the truth about her past and her connection to Earth. The film was praised for its performances, particularly from Brie Larson as Captain Marvel, as well as its action sequences and 90s nostalgia. It grossed over $1.1 billion worldwide, making it one of the highest-grossing films of 2019.
+
+Name: Avengers: Endgame
+Release Date: April 26, 2019
+Phase: Phase Three (Infinity Saga)
+Star Cast: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, Josh Brolin
+Director: Anthony Russo, Joe Russo
+Writers: Christopher Markus, Stephen McFeely
+Overview: "Avengers: Endgame" is a superhero film and the 22nd film in the Marvel Cinematic Universe. The film picks up after the events of "Avengers: Infinity War" and follows the remaining Avengers as they attempt to reverse the devastating effects of Thanos' snap, which wiped out half of all life in the universe. The film features a time heist plot that takes the Avengers back to key moments in the previous films, culminating in an epic final battle against Thanos. The film was praised for its emotional storytelling, character development, and epic action sequences. It grossed over $2.8 billion worldwide, becoming the highest-grossing film of all time (at the time of release).
+
+Name: Spider-Man: Far From Home
+Release Date: July 2, 2019
+Phase: Phase Three (Infinity Saga)
+Star Cast: Tom Holland, Samuel L. Jackson, Zendaya, Cobie Smulders, Jon Favreau, JB Smoove, Jacob Batalon, Martin Starr, Marisa Tomei, Jake Gyllenhaal
+Director: Jon Watts
+Writers: Chris McKenna, Erik Sommers
+Overview: "Spider-Man: Far From Home" is a superhero film and the 23rd film in the Marvel Cinematic Universe. The film picks up after the events of "Avengers: Endgame" and follows Peter Parker, aka Spider-Man, as he goes on a school trip to Europe. While on the trip, he is recruited by Nick Fury to stop a group of elemental creatures that are wreaking havoc across the continent. He also meets Mysterio, a new hero who claims to come from an alternate dimension, and begins to develop a mentor-mentee relationship with him. The film was praised for its humor, action sequences, and performances, particularly from Tom Holland and Jake Gyllenhaal as Mysterio. It grossed over $1.1 billion worldwide, becoming the highest-grossing Spider-Man film and one of the highest-grossing films of 2019.
+
+Name: Black Widow
+Release Date: July 9, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Scarlett Johansson, Florence Pugh, David Harbour, O-T Fagbenle, William Hurt, Ray Winstone, Rachel Weisz
+Director: Cate Shortland
+Writers: Eric Pearson, Jac Schaeffer, Ned Benson
+Overview: "Black Widow" is a superhero film and the 24th film in the Marvel Cinematic Universe. The film takes place after the events of "Captain America: Civil War" and follows Natasha Romanoff, aka Black Widow, as she confronts the darker parts of her past. She reunites with her surrogate family, consisting of fellow spies Yelena Belova, Alexei Shostakov, and Melina Vostokoff, to take down the villainous Taskmaster, who has been controlling the Widows program. The film was praised for its action sequences, humor, and performances, particularly from Scarlett Johansson and Florence Pugh as Yelena. It grossed over $379 million worldwide, becoming the highest-grossing film of 2021 at the time of release.
+
+Name: Shang-Chi and the Legend of the Ten Rings
+Release Date: September 3, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Simu Liu, Awkwafina, Meng'er Zhang, Fala Chen, Florian Munteanu, Benedict Wong, Michelle Yeoh, Tony Leung
+Director: Destin Daniel Cretton
+Writers: Dave Callaham, Destin Daniel Cretton, Andrew Lanham
+Overview: "Shang-Chi and the Legend of the Ten Rings" is a superhero film and the 25th film in the Marvel Cinematic Universe. The film introduces Shang-Chi, a skilled martial artist who is forced to confront his past when his father, the leader of the Ten Rings organization, comes back into his life. Shang-Chi teams up with his best friend Katy and his estranged sister Xialing to stop his father from unleashing a dangerous power. The film was praised for its action sequences, cultural representation, and performances, particularly from Simu Liu and Tony Leung as Shang-Chi and his father Wenwu, respectively. It grossed over $400 million worldwide, becoming one of the highest-grossing films of 2021.
+
+Name: Eternals
+Release Date: November 5, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Gemma Chan, Richard Madden, Kumail Nanjiani, Lia McHugh, Brian Tyree Henry, Lauren Ridloff, Barry Keoghan, Don Lee, Harish Patel, Kit Harington, Salma Hayek, Angelina Jolie
+Director: Chloé Zhao
+Writers: Kaz Firpo, Ryan Firpo
+Overview: "Eternals" is a superhero film and the 26th film in the Marvel Cinematic Universe. The film introduces a new team of superheroes called the Eternals, who have lived secretly on Earth for thousands of years and possess incredible powers. The Eternals reunite to protect humanity from the Deviants, their ancient enemies who have resurfaced after centuries of absence. The film was praised for its visuals, themes, and performances, particularly from Gemma Chan, Richard Madden, and Kumail Nanjiani as the lead Eternals. It grossed over $400 million worldwide, despite mixed critical reception.
+
+Name: Spider-Man: No Way Home
+Release Date: December 17, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon, Jon Favreau, Jamie Foxx, Willem Dafoe, Alfred Molina, Benedict Wong, Tony Revolori, Marisa Tomei, Andrew Garfield, Tobey Maguire
+Director: Jon Watts
+Writers: Chris McKenna, Erik Sommers
+Overview: The movie revolves around Peter Parker, who faces numerous challenges after J. Jonah Jameson exposes his identity as Spider-Man and frames him for Mysterio's death and a mass casualty event in London. Parker hires Matt Murdock to represent him and manages to get his criminal charges dropped, but the intense controversy causes him, Michelle Jones, and Ned Leeds to be rejected from every college they apply to. Parker visits Doctor Strange and asks him to make the identity of Spider-Man a secret again to get his friends into MIT, but the spell becomes unstable due to Parker's incessant alterations, which pulls villains from parallel realities into their own universe. Strange locks them in a mystical containment unit and recruits Parker to help capture them. However, Parker steals the Macchina di Kadavus, a device that can reverse the spell, and attempts to cure the villains instead of sending them back to their fates. The situation escalates, and Parker's aunt, May Parker, dies during the battle. The movie ends with Parker taking responsibility for his actions and promising to continue helping others despite the odds.
+
+Name: Doctor Strange in the Multiverse of Madness
+Release Date: May 6, 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Benedict Cumberbatch, Elizabeth Olsen, Benedict Wong, Rachel McAdams, Chiwetel Ejiofor, Xochitl Gomez
+Director: Sam Raimi
+Writers: Michael Waldron, Jade Bartlett
+Overview: "Doctor Strange in the Multiverse of Madness" is a superhero film and the 27th film in the Marvel Cinematic Universe. The film follows Doctor Strange as he teams up with Wanda Maximoff, aka Scarlet Witch, to confront a threat from the multiverse. The film was praised for its horror elements, action sequences, and performances, particularly from Benedict Cumberbatch and Elizabeth Olsen as Doctor Strange and Scarlet Witch, respectively. It grossed over $1.6 billion worldwide, becoming the highest-grossing film of 2022 at the time of release.
+
+Name: Thor: Love and Thunder
+Release Date: July 8, 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Chris Hemsworth, Natalie Portman, Tessa Thompson, Christian Bale, Jaimie Alexander, Chris Pratt, Dave Bautista, Karen Gillan, Pom Klementieff, Sean Gunn, Vin Diesel, Bradley Cooper, Russell Crowe, Matt Damon, Melissa McCarthy, Luke Hemsworth, Sam Neill
+Director: Taika Waititi
+Writers: Taika Waititi, Jennifer Kaytin Robinson
+Overview: "Thor: Love and Thunder" is a superhero film and the 28th film in the Marvel Cinematic Universe. The film follows Thor as he teams up with Jane Foster, aka Mighty Thor, to confront a threat from the multiverse. The film was praised for its humor, action sequences, and performances, particularly from Chris Hemsworth and Natalie Portman as Thor and Mighty Thor, respectively. It grossed over $1.6 billion worldwide, becoming the highest-grossing film of 2022 at the time of release.
+
+Name: Black Panther: Wakanda Forever
+Release Date: November 11, 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Letitia Wright, Lupita Nyong'o, Danai Gurira, Winston Duke, Angela Bassett, Martin Freeman, Tenoch Huerta, Michaela Coel, Dominique Thorne, Florence Kasumba, John Kani, Andy Serkis, Michael B. Jordan
+Director: Ryan Coogler
+Writers: Ryan Coogler, Joe Robert Cole
+Overview: "Black Panther: Wakanda Forever" is a superhero film and the 29th film in the Marvel Cinematic Universe. The film follows Shuri as she takes on the mantle of Black Panther and defends Wakanda from a new threat. The film was praised for its action sequences, cultural representation, and performances, particularly from Letitia Wright as Shuri. It grossed over $1.6 billion worldwide, becoming the highest-grossing film of 2022 at the time of release.
+
+Name: Ant-Man and the Wasp: Quantamania
+Release Date: February 17, 2023
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: Paul Rudd, Evangeline Lilly, Michael Douglas, Michelle Pfeiffer, Kathryn Newton, Jonathan Majors
+Director: Peyton Reed
+Writers: Jeff Loveness
+Overview: The movie revolves around the adventures of Scott Lang, Hope van Dyne, and Hank Pym as they venture into the Quantum Realm to find Janet van Dyne. They soon encounter Kang, the new ruler of the Quantum Realm, who demands their help in rebuilding his multiversal power core. The group learns of Kang's true intentions and the devastating consequences that could result if they fail to stop him. Along the way, they encounter rebels and former allies, all while trying to stay alive and save the world from Kang's evil plans. With plenty of action, drama, and twists, the movie takes viewers on a thrilling journey through the Quantum Realm and beyond.
+
+Name: Guardians of the Galaxy Vol. 3
+Release Date: Not Released Yet, Possible Release Date: May 5, 2023
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Pom Klementieff, Karen Gillan, Sean Gunn, Elizabeth Debicki, Sylvester Stallone, Michelle Yeoh, Ving Rhames, Michael Rosenbaum, Miley Cyrus
+Director: James Gunn
+Writers: James Gunn
+Overview: NA
+
+Name: The Marvels
+Release Date: November 10, 2023
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Samuel L. Jackson, Monica Rambeau, Megan McDonnell
+Director: Nia DaCosta
+Writers: Megan McDonnell
+Overview: NA
+
+Name: Captain America: New World Order
+Release Date: Not Released Yet
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Thunderbolts
+Release Date: Not Released Yet
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Blade
+Release Date: Not Released Yet
+Phase: Phase Five (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Untitled Deadpool Movie
+Release Date: Not Released Yet
+Phase: Phase Six (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Fantastic Four
+Release Date: Not Released Yet
+Phase: Phase Six (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Avengers: The Kang Dynasty
+Release Date: Not Released Yet
+Phase: Phase Six (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Avengers: Secret Wars
+Release Date: Not Released Yet
+Phase: Phase Six (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Details of all the TV Show of Marvel Cinematic Universe
+
+Name: WandaVision
+Release Date: January 15, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Elizabeth Olsen, Paul Bettany, Kathryn Hahn, Teyonah Parris, Randall Park, Kat Dennings, Evan Peters
+Director: Matt Shakman
+Writers: Jac Schaeffer
+Overview: "WandaVision" is a superhero television miniseries and the first television series in the Marvel Cinematic Universe. The series follows Wanda Maximoff and Vision as they live a suburban life in the town of Westview, New Jersey, trying to conceal their powers. The series was praised for its unique storytelling, performances, and emotional depth. It was nominated for 23 Primetime Emmy Awards, winning 9, including Outstanding Limited or Anthology Series.
+
+Name: The Falcon and the Winter Soldier
+Release Date: March 19, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Anthony Mackie, Sebastian Stan, Daniel Brühl, Emily VanCamp, Wyatt Russell, Erin Kellyman, Adepero Oduye, Danny Ramirez, Georges St-Pierre, Don Cheadle, Julia Louis-Dreyfus
+Director: Kari Skogland
+Writers: Malcolm Spellman
+Overview: After the events of Avengers: Endgame, Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and patience. The two heroes navigate a world post-Steve Rogers, where Sam struggles to accept the mantle of Captain America while Bucky attempts to make amends for his past as the Winter Soldier. Along the way, they encounter new allies and enemies, including John Walker, a government-appointed successor to Captain America, and Karli Morgenthau, leader of the Flag Smashers, a group seeking to restore the world to its pre-Blip state. The series explores themes of race, nationalism, and legacy, while also featuring action-packed sequences and unexpected twists.
+
+Name: Loki Season 1
+Release Date: June 9, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Tom Hiddleston, Owen Wilson, Gugu Mbatha-Raw, Wunmi Mosaku, Eugene Cordero, Tara Strong, Sophia Di Martino, Sasha Lane, Jack Veal, DeObia Oparei, Richard E. Grant, Jonathan Majors
+Director: Kate Herron
+Writers: Michael Waldron
+Overview: Loki is a six-episode series that follows the God of Mischief as he is apprehended by the Time Variance Authority (TVA) for crimes against the Sacred Timeline. He is tasked with helping the TVA fix the timeline, but he soon discovers that there is more to the TVA than meets the eye. The series explores themes of identity, free will, and destiny, while also featuring action-packed sequences and unexpected twists.
+
+Name: What If...? Season 1
+Release Date: August 11, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: The series features the voice talents of various actors from the Marvel Cinematic Universe (MCU), including Jeffrey Wright, Hayley Atwell, Chadwick Boseman, Tom Hiddleston, Samuel L. Jackson, Michael B. Jordan, Paul Rudd, Mark Ruffalo, and many more.
+Director: Bryan Andrews
+Writers: A.C. Bradley
+Overview: What If...? is an animated series that explores alternate realities in the Marvel Cinematic Universe. The series follows the Watcher, a cosmic being who observes the multiverse, as he narrates stories of what could have happened if key moments in the MCU had occurred differently. The series explores themes of fate, choice, and consequence, while also featuring action-packed sequences and unexpected twists.
+
+Name: Hawkeye Season 1
+Release Date: November 24, 2021
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Jeremy Renner, Hailee Steinfeld, Vera Farmiga, Fra Fee, Tony Dalton, Zahn McClarnon, Brian d'Arcy James, Alaqua Cox, Florence Pugh
+Director: Rhys Thomas, Bert & Bertie
+Writers: Jonathan Igla
+Overview: Hawkeye is a six-episode series that follows Clint Barton as he trains Kate Bishop to become the next Hawkeye. The series explores themes of family, legacy, and redemption, while also featuring action-packed sequences and unexpected twists.
+
+Name: Ms. Marvel Season 1
+Release Date: 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Iman Vellani, Aramis Knight, Saagar Shaikh, Rish Shah, Zenobia Shroff, Mohan Kapur, Matt Lintz, Yasmeen Fletcher, Laith Naki, Azher Usman, Travina Springer, Nimra Bucha
+Director: Adil El Arbi, Bilall Fallah, Meera Menon, Sharmeen Obaid-Chinoy
+Writers: Bisha K. Ali
+Overview: Ms. Marvel is a six-episode series that follows Kamala Khan as she discovers her powers and becomes the superhero Ms. Marvel. The series explores themes of identity, family, and friendship, while also featuring action-packed sequences and unexpected twists.
+
+Name: Moon Knight Season 1
+Release Date: 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Oscar Isaac, Ethan Hawke, May Calamawy, Gaspard Ulliel, Karim El Hakim, Mohammed Diabs, F. Murray Abraham, Justin Benson, Aaron Moorhead, Ethan Hawke, May Calamawy, Gaspard Ulliel, Karim El Hakim, Mohammed Diabs, F. Murray Abraham, Justin Benson, Aaron Moorhead
+Director: Mohamed Diab, Justin Benson, Aaron Moorhead
+Writers: Jeremy Slater
+Overview: Moon Knight is a six-episode series that follows Marc Spector as he becomes the superhero Moon Knight. The series explores themes of mental illness, identity, and morality, while also featuring action-packed sequences and unexpected twists.
+
+Name: She-Hulk Season 1
+Release Date: 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Tatiana Maslany, Mark Ruffalo, Tim Roth, Ginger Gonzaga, Renée Elise Goldsberry, Jameela Jamil, Josh Segarra, Anais Almonte, Kevin Garcia, Frank Whaley, Jameela Jamil, Josh Segarra, Anais Almonte, Kevin Garcia, Frank Whaley
+Director: Kat Coiro, Anu Valia
+Writers: Jessica Gao
+Overview: She-Hulk is a six-episode series that follows Jennifer Walters as she becomes the superhero She-Hulk. The series explores themes of identity, family, and friendship, while also featuring action-packed sequences and unexpected twists.
+
+Name: I Am Groot Season 1
+Release Date: 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Vin Diesel
+Director: NA
+Writers: NA
+Overview: I Am Groot is a six-episode series that follows Groot as he becomes the superhero I Am Groot. The series explores themes of identity, family, and friendship, while also featuring action-packed sequences and unexpected twists.
+
+Name: The Guardians of the Galaxy Holiday Special
+Release Date: 2022
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Pom Klementieff, Karen Gillan, Sean Gunn, Michael Rooker, Jeff Goldblum, Taika Waititi
+Director: James Gunn
+Writers: James Gunn
+Overview: The Guardians of the Galaxy Holiday Special is a one-off special that follows the Guardians of the Galaxy as they celebrate the holidays. The special explores themes of family, friendship, and love, while also featuring action-packed sequences and unexpected twists.
+
+Name: Secret Invasion Season 1
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: Samuel L. Jackson, Ben Mendelsohn, Kingsley Ben-Adir, Olivia Colman, Emilia Clarke, Killian Scott, Christopher McDonald, Carmen Ejogo, Toby Huss, Bodhi Sabongui, Olli Haaskivi, Veronica Falcón, Zawe Ashton
+Director: Thomas Bezucha, Ali Selim
+Writers: Kyle Bradstreet
+Overview: Secret Invasion is a six-episode series that follows Nick Fury and Talos as they investigate a Skrull invasion on Earth. The series explores themes of identity, family, and friendship, while also featuring action-packed sequences and unexpected twists.
+
+Name: Echo
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Loki Season 2
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Ironheart Season 1
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Agatha: Coven of Chaos
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Daredevil: Born Again
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: X-Men '97
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: What If...? Season 2
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Spider-Man Freshman Year
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
+
+Name: Marvel Zombies
+Release Date: Not Release Yet
+Phase: Phase Four (The Multiverse Saga)
+Star Cast: NA
+Director: NA
+Writers: NA
+Overview: NA
