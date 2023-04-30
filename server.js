@@ -78,16 +78,10 @@ const generateText = async (queryText) => {
             text = text[0].trim();
         }
 
-        return {
-            status: 1,
-            response: text,
-        };
+        return text
     } catch (error) {
         console.error(`OpenAI API error: ${error}`);
-        return {
-            status: 0,
-            response: '',
-        };
+        return 'Sorry, I could not find an answer to your question.';
     }
 };
 
@@ -106,19 +100,11 @@ app.post('/webhook', async (req, res) => {
             });
         } else if (intent === 'Default Fallback Intent') {
             const result = await generateText(queryText);
-            if (result.status === 1) {
-                res.send({
-                    fulfillmentMessages: [{
-                        text: { text: [result.response] }
-                    }]
-                });
-            } else {
-                res.send({
-                    fulfillmentMessages: [{
-                        text: { text: ['Sorry!, I am unable to handle your query'] }
-                    }]
-                });
-            }
+            res.send({
+                fulfillmentMessages: [{
+                    text: { text: [result.response] }
+                }]
+            });
         }
     } catch (error) {
         console.error(`Dialogflow webhook error: ${error}`);
