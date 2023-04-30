@@ -107,6 +107,20 @@ app.post('/webhook', async (req, res) => {
         } else if (intent === 'Default Fallback Intent') {
             const result = await generateText(queryText);
             console.log(result);
+            if (result.status === 1) {
+                res.send({
+                    fulfillmentMessages: [{
+                        text: { text: [result.message] }
+                    }]
+                });
+            }
+            else {
+                res.send({
+                    fulfillmentMessages: [{
+                        text: { text: [`Sorry, I didn't get that. Can you rephrase your question?`] }
+                    }]
+                });
+            }
         }
     } catch (error) {
         console.error(`Dialogflow webhook error: ${error}`);
