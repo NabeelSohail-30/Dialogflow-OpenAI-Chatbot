@@ -102,7 +102,7 @@ app.post('/webhook', async (req, res) => {
             const result = await generateText(queryText);
             res.send({
                 fulfillmentMessages: [{
-                    text: { text: [result.response] }
+                    text: { text: [result] }
                 }]
             });
         }
