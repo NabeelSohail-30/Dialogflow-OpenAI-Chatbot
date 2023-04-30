@@ -42,6 +42,8 @@ const generateText = async (queryText) => {
         // Load the OpenAI embeddings
         const embeddings = new OpenAIEmbeddings();
 
+        console.log('Loading OpenAI model...');
+
         // Load the OpenAI model
         const model = new OpenAI({
             temperature: 0,
@@ -49,8 +51,12 @@ const generateText = async (queryText) => {
             modelName: 'text-davinci-003'
         });
 
+        console.log('Loading QA refinement chain...');
+
         // Load the QA refinement chain
         const chain = loadQARefineChain(model);
+
+        console.log('Loading documents...');
 
         // Load the text file
         const __dirname = path.resolve();
@@ -59,9 +65,14 @@ const generateText = async (queryText) => {
         const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
         const docs = [new Document({ pageContent: doc })];
 
+        console.log('Generating answer...');
+
         // Find the relevant documents based on the question
         const store = await MemoryVectorStore.fromDocuments(docs, embeddings);
         const relevantDocs = await store.similaritySearch(queryText);
+
+        console.log('Answering question...');
+        console.log('Question: ' + queryText);
 
         // Use the QA refinement chain to generate the answer
         const res = await chain.call({
@@ -69,6 +80,8 @@ const generateText = async (queryText) => {
             question: queryText,
         });
         let text = res.output_text.trim();
+
+        console.log('Answer: ' + text);
 
         // Process the answer to remove the question text and extra whitespace
         text = text.split('?');
