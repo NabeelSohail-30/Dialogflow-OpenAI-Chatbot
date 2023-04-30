@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 
 const generateText = async (queryText) => {
     try {
-        const dataFilePath = './data.txt';
+        const dataFilePath = './testData.txt';
         if (!dataFilePath) {
             throw new Error('Fine-tune data not provided');
         }
