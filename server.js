@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 
 const generateText = async (queryText) => {
     try {
-        const dataFilePath = './testData.txt';
+        const dataFilePath = './testData2.txt';
         if (!dataFilePath) {
             throw new Error('Fine-tune data not provided');
         }
@@ -114,7 +114,7 @@ app.post('/webhook', async (req, res) => {
         if (intent === 'Default Welcome Intent') {
             res.send({
                 fulfillmentMessages: [{
-                    text: { text: [`Hi There, Welcome to MCU Assistant! I'm here to help you explore the Marvel Cinematic Universe. Ask me anything about your favorite characters, movies, or TV shows and I'll do my best to provide you with the information you need. Let's get started!`] }
+                    text: { text: [`Hi There, Welcome to Chatbot`] }
                 }]
             });
         } else if (intent === 'Default Fallback Intent') {
