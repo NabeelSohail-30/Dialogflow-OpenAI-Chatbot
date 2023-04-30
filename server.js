@@ -3,7 +3,13 @@ const bodyParser = require('body-parser');
 const { Configuration, OpenAIApi } = require("openai");
 const cors = require('cors');
 const dotenv = require('dotenv');
-const fs = require('fs');
+const { loadQARefineChain } = require('langchain/chains');
+const { OpenAI } = require('langchain/llms/openai');
+const { TextLoader } = require('langchain/document_loaders/fs/text');
+const { MemoryVectorStore } = require('langchain/vectorstores/memory');
+const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
+const { Document } = require('langchain/document');
+const path = require('path');
 
 dotenv.config();
 
@@ -26,79 +32,55 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-//upload file to fine tune the model
-// async function upload() {
-//     try {
-//         const response = await openai.createFile(
-//             fs.createReadStream('./data.json'),
-//             "fine-tune"
-//         );
-//         console.log('File ID: ', response.data.id)
-//         return response.data.id
-//     } catch (err) {
-//         console.log('err: ', err)
-//     }
-// }
-
-// const fileId = upload()
-
-// console.log('fileId: ', fileId)
-
-// async function createFineTune() {
-//     try {
-//         const response = await openai.createFineTune({
-//             training_file: fileId,
-//             model: 'davinci'
-//         })
-//         console.log('response: ', response)
-//         return response.data.id
-//     } catch (err) {
-//         console.log('error: ', err.response.data.error)
-//     }
-// }
-
-// const fineTuneId = createFineTune()
-
-// console.log('fineTuneId: ', fineTuneId)
-
-// fine tune the openai model on custom text and generate the answer for the questions
-const generateText = async (prompt) => {
+const generateText = async (queryText) => {
     try {
-        const fineTuneData = './data.json'
-        if (!fineTuneData) {
+        const dataFilePath = './data.txt';
+        if (!dataFilePath) {
             throw new Error('Fine-tune data not provided');
         }
 
-        let modelId;
-        const trainingData = {
-            file: fineTuneData,
-            model: 'davinci',
-            epoch: 3,
-            batchSize: 1,
-            learningRate: 0.0001,
-            prompt: 'Fine-tune the GPT model with your own data',
-            validationSplit: 0.1,
-            maxChars: 10000,
-        };
-        const response = await openaiClient.training.create(trainingData);
+        // Load the OpenAI embeddings
+        const embeddings = new OpenAIEmbeddings();
 
-        if (response.status !== 'success') {
-            throw new Error('Training failed');
+        // Load the OpenAI model
+        const model = new OpenAI({
+            temperature: 0,
+            maxTokens: 500,
+            modelName: 'text-davinci-003'
+        });
+
+        // Load the QA refinement chain
+        const chain = loadQARefineChain(model);
+
+        // Load the text file
+        const __dirname = path.resolve();
+        const loader = new TextLoader(path.join(__dirname, dataFilePath));
+        const rawDoc = await loader.load();
+        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
+        const docs = [new Document({ pageContent: doc })];
+
+        // Find the relevant documents based on the question
+        const store = await MemoryVectorStore.fromDocuments(docs, embeddings);
+        const relevantDocs = await store.similaritySearch(queryText);
+
+        // Use the QA refinement chain to generate the answer
+        const res = await chain.call({
+            input_documents: relevantDocs,
+            question: queryText,
+        });
+        let text = res.output_text.trim();
+
+        // Process the answer to remove the question text and extra whitespace
+        text = text.split('?');
+        if (text.length > 1) {
+            text = text[1].trim();
+        } else if (text.length > 0) {
+            text = text[0].trim();
         }
 
-        modelId = response.data.model.id;
-
-        const responseChat = await openaiClient.completions.create({
-            engine: 'davinci',
-            prompt: `Human: ${prompt}\nAI: `,
-            maxTokens: 500,
-            n: 1,
-            stop: ['Human:', 'AI:'],
-            model: modelId,
-        });
         return {
             status: 1,
-            response: responseChat.data.choices[0].text,
+            response: text,
         };
     } catch (error) {
         console.error(`OpenAI API error: ${error}`);
@@ -108,6 +90,7 @@ const generateText = async (prompt) => {
         };
     }
 };
+
 
 // Dialogflow webhook
 app.post('/webhook', async (req, res) => {
