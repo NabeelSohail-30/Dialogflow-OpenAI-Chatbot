@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 const generateText = async (queryText) => {
     try {
         // Set a timeout of 10 seconds
-        const timeout = 10000;
+        const timeout = 20000;
 
         const dataFilePath = './testData.txt';
         if (!dataFilePath) {
