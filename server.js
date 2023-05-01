@@ -34,6 +34,9 @@ app.get('/', (req, res) => {
 
 const generateText = async (queryText) => {
     try {
+        // Set a timeout of 10 seconds
+        const timeout = 10000;
+
         const dataFilePath = './testData.txt';
         if (!dataFilePath) {
             throw new Error('Fine-tune data not provided');
@@ -62,7 +65,7 @@ const generateText = async (queryText) => {
         const __dirname = path.resolve();
         const loader = new TextLoader(path.join(__dirname, dataFilePath));
         const rawDoc = await loader.load();
-        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
+        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, ' ');
         const docs = [new Document({ pageContent: doc })];
 
         console.log('Generating answer...');
@@ -75,10 +78,16 @@ const generateText = async (queryText) => {
         console.log('Question: ' + queryText);
 
         // Use the QA refinement chain to generate the answer
-        const res = await chain.call({
-            input_documents: relevantDocs,
-            question: queryText,
-        });
+        const res = await Promise.race([
+            chain.call({
+                input_documents: relevantDocs,
+                question: queryText,
+            }),
+            new Promise((_, reject) =>
+                setTimeout(() => reject(new Error('Timeout')), timeout)
+            ),
+        ]);
+
         let text = res.output_text.trim();
 
         console.log('Answer: ' + text);
@@ -93,13 +102,13 @@ const generateText = async (queryText) => {
 
         return {
             status: 1,
-            message: text
-        }
+            message: text,
+        };
     } catch (error) {
         console.error(`OpenAI API error: ${error}`);
         return {
             status: 0,
-            message: 'An internal server error occurred'
+            message: 'An internal server error occurred',
         };
     }
 };
