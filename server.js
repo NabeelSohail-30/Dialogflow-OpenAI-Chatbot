@@ -127,7 +127,18 @@ app.post('/webhook', async (req, res) => {
                 }]
             });
         } else if (intent === 'Default Fallback Intent') {
-            const result = await generateText(queryText);
+            let timeoutID;
+            const timeout = 20000; // 20 seconds
+            const result = await Promise.race([
+                generateText(queryText),
+                new Promise((resolve, reject) => {
+                    timeoutID = setTimeout(() => {
+                        reject(new Error('Timeout'));
+                    }, timeout);
+                })
+            ]);
+            clearTimeout(timeoutID);
+
             console.log(result);
             if (result.status === 1) {
                 res.send({
@@ -149,6 +160,7 @@ app.post('/webhook', async (req, res) => {
         res.status(500).send({ error: 'An internal server error occurred' });
     }
 });
+
 
 // Start server
 app.listen(port, () => {
