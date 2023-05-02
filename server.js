@@ -66,7 +66,7 @@ const generateText = async (queryText) => {
         const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
         const docs = [new Document({ pageContent: doc })];
 
-        console.log('Generating answer...');
+        console.log('Initializing Pinecone client...');
 
         // Find the relevant documents based on the question
         const pinecone = new PineconeClient();
@@ -74,9 +74,7 @@ const generateText = async (queryText) => {
             apiKey: process.env.PINECONE_API_KEY,
         });
 
-        if (!pineconeClient) {
-            throw new Error('Pinecone client not initialized');
-        }
+        console.log('Searching for relevant documents...');
 
         const vectorIndex = 'dialogflow-openai-test';
         const store = new PineconeVectorStore(pineconeClient, vectorIndex, embeddings);
