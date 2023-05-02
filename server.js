@@ -10,7 +10,7 @@ const { MemoryVectorStore } = require('langchain/vectorstores/memory');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
-const Pinecone = require('@pinecone-io/client-node');
+const { PineconeClient } = require('@pinecone-database/pinecone');
 
 dotenv.config();
 
@@ -69,7 +69,11 @@ const generateText = async (queryText) => {
         console.log('Generating answer...');
 
         // Find the relevant documents based on the question
-        const pineconeClient = await Pinecone.init(process.env.PINECONE_API_KEY);
+        const pinecone = new PineconeClient();
+        await pinecone.init({
+            apiKey: process.env.PINECONE_API_KEY,
+        });
+
         if (!pineconeClient) {
             throw new Error('Pinecone client not initialized');
         }
