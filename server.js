@@ -71,6 +71,7 @@ const generateText = async (queryText) => {
         // Find the relevant documents based on the question
         const pinecone = new PineconeClient();
         await pinecone.init({
+            environment: 'us-west1-gcp-free',
             apiKey: process.env.PINECONE_API_KEY,
         });
 
