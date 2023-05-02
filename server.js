@@ -78,8 +78,8 @@ const generateText = async (queryText) => {
         console.log('Searching for relevant documents...');
 
         const vectorIndex = 'dialogflow-openai-test';
-        const store = new MemoryVectorStore(pinecone, vectorIndex, embeddings);
-        // const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
+        const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
+
         const relevantDocs = await store.similaritySearch(queryText);
 
         console.log('Answering question...');
@@ -87,10 +87,10 @@ const generateText = async (queryText) => {
 
         // Use the QA refinement chain to generate the answer
         const res = await chain.call({
-            input_documents: relevantDocs,
+            inputDocuments: relevantDocs,
             question: queryText,
         });
-        let text = res.output_text.trim();
+        let text = res.outputText.trim();
 
         console.log('Answer: ' + text);
 
