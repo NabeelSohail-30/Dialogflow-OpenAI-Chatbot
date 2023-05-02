@@ -10,7 +10,8 @@ const { MemoryVectorStore } = require('langchain/vectorstores/memory');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
-const { PineconeClient, PineconeVectorStore } = require('@pinecone-database/pinecone');
+const { PineconeClient } = require('@pinecone-database/pinecone');
+const { MemoryVectorStore } = require('@pinecone-database/pinecone/dist/vectorstore/memory');
 
 dotenv.config();
 
@@ -40,9 +41,6 @@ const generateText = async (queryText) => {
             throw new Error('Fine-tune data not provided');
         }
 
-        // Load the OpenAI embeddings
-        const embeddings = new OpenAIEmbeddings();
-
         console.log('Loading OpenAI model...');
 
         // Load the OpenAI model
@@ -68,19 +66,20 @@ const generateText = async (queryText) => {
 
         console.log('Initializing Pinecone client...');
 
-        // Find the relevant documents based on the question
+        // Initialize the Pinecone client
+        const store = new MemoryVectorStore();
+        const vectorIndex = 'dialogflow-openai-test';
         const pinecone = new PineconeClient();
         await pinecone.init({
             environment: 'us-west1-gcp-free',
             apiKey: process.env.PINECONE_API_KEY,
         });
 
-        console.log('Searching for relevant documents...');
+        console.log('Initializing vector store...');
+        const embeddings = new OpenAIEmbeddings();
+        const vectorStore = new PineconeVectorStore(pinecone, vectorIndex, embeddings, store);
 
-        const vectorIndex = 'dialogflow-openai-test';
-        const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
-
-        const relevantDocs = await store.similaritySearch(queryText);
+        const relevantDocs = await vectorStore.similaritySearch(queryText);
 
         console.log('Answering question...');
         console.log('Question: ' + queryText);
@@ -103,7 +102,7 @@ const generateText = async (queryText) => {
         }
 
         // Store the vectors in Pinecone to prevent re-embedding
-        await store.addDocuments(docs);
+        await vectorStore.addDocuments(docs);
 
         return {
             status: 1,
