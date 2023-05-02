@@ -78,7 +78,8 @@ const generateText = async (queryText) => {
         console.log('Searching for relevant documents...');
 
         const vectorIndex = 'dialogflow-openai-test';
-        const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
+        const store = new MemoryVectorStore(pinecone, vectorIndex, embeddings);
+        // const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
         const relevantDocs = await store.similaritySearch(queryText);
 
         console.log('Answering question...');
