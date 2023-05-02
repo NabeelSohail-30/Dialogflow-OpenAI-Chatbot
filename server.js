@@ -78,11 +78,7 @@ const generateText = async (queryText) => {
             throw new Error('Pinecone client not initialized');
         }
 
-        if (!pineconeClient.listIndexes().includes('dialogflow-index')) {
-            await pineconeClient.createIndex('dialogflow-index', 'cosine', 768);
-        }
-
-        const vectorIndex = 'dialogflow-index';
+        const vectorIndex = 'dialogflow-openai-test';
         const store = new PineconeVectorStore(pineconeClient, vectorIndex, embeddings);
         const relevantDocs = await store.similaritySearch(queryText);
 
