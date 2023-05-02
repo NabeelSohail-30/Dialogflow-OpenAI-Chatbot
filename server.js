@@ -10,6 +10,7 @@ const { MemoryVectorStore } = require('langchain/vectorstores/memory');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
+const Pinecone = require('@pinecone-io/client-node');
 
 dotenv.config();
 
@@ -34,9 +35,6 @@ app.get('/', (req, res) => {
 
 const generateText = async (queryText) => {
     try {
-        // Set a timeout of 10 seconds
-        const timeout = 20000;
-
         const dataFilePath = './testData.txt';
         if (!dataFilePath) {
             throw new Error('Fine-tune data not provided');
@@ -65,29 +63,33 @@ const generateText = async (queryText) => {
         const __dirname = path.resolve();
         const loader = new TextLoader(path.join(__dirname, dataFilePath));
         const rawDoc = await loader.load();
-        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, ' ');
+        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
         const docs = [new Document({ pageContent: doc })];
 
         console.log('Generating answer...');
 
         // Find the relevant documents based on the question
-        const store = await MemoryVectorStore.fromDocuments(docs, embeddings);
+        const pineconeClient = await Pinecone.init(process.env.PINECONE_API_KEY);
+        if (!pineconeClient) {
+            throw new Error('Pinecone client not initialized');
+        }
+
+        if (!pineconeClient.listIndexes().includes('dialogflow-index')) {
+            await pineconeClient.createIndex('dialogflow-index', 'cosine', 768);
+        }
+
+        const vectorIndex = 'dialogflow-index';
+        const store = new PineconeVectorStore(pineconeClient, vectorIndex, embeddings);
         const relevantDocs = await store.similaritySearch(queryText);
 
         console.log('Answering question...');
         console.log('Question: ' + queryText);
 
         // Use the QA refinement chain to generate the answer
-        const res = await Promise.race([
-            chain.call({
-                input_documents: relevantDocs,
-                question: queryText,
-            }),
-            new Promise((_, reject) =>
-                setTimeout(() => reject(new Error('Timeout')), timeout)
-            ),
-        ]);
-
+        const res = await chain.call({
+            input_documents: relevantDocs,
+            question: queryText,
+        });
         let text = res.output_text.trim();
 
         console.log('Answer: ' + text);
@@ -100,15 +102,18 @@ const generateText = async (queryText) => {
             text = text[0].trim();
         }
 
+        // Store the vectors in Pinecone to prevent re-embedding
+        await store.addDocuments(docs);
+
         return {
             status: 1,
-            message: text,
-        };
+            message: text
+        }
     } catch (error) {
         console.error(`OpenAI API error: ${error}`);
         return {
             status: 0,
-            message: 'An internal server error occurred',
+            message: 'An internal server error occurred'
         };
     }
 };
