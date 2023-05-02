@@ -10,8 +10,7 @@ const { TextLoader } = require('langchain/document_loaders/fs/text');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
-const { PineconeClient } = require('@pinecone-database/pinecone');
-const { MemoryVectorStore } = require('@pinecone-database/pinecone/dist/vectorstore/memory');
+const { PineconeClient, MemoryVectorStore } = require('@pinecone-database/pinecone');
 
 dotenv.config();
 
