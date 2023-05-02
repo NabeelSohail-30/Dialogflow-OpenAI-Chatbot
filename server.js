@@ -10,7 +10,7 @@ const { MemoryVectorStore } = require('langchain/vectorstores/memory');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
-const { PineconeClient } = require('@pinecone-database/pinecone');
+const { PineconeClient, PineconeVectorStore } = require('@pinecone-database/pinecone');
 
 dotenv.config();
 
@@ -77,7 +77,7 @@ const generateText = async (queryText) => {
         console.log('Searching for relevant documents...');
 
         const vectorIndex = 'dialogflow-openai-test';
-        const store = new PineconeVectorStore(pineconeClient, vectorIndex, embeddings);
+        const store = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
         const relevantDocs = await store.similaritySearch(queryText);
 
         console.log('Answering question...');
