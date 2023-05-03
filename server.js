@@ -66,7 +66,7 @@ const generateText = async (queryText) => {
         console.log('Initializing Pinecone client...');
 
         // Initialize the Pinecone client
-        const store = new MemoryVectorStore();
+        // const store = new MemoryVectorStore();
         const vectorIndex = 'dialogflow-openai-test';
         const pinecone = new PineconeClient();
         await pinecone.init({
@@ -76,7 +76,7 @@ const generateText = async (queryText) => {
 
         console.log('Initializing vector store...');
         const embeddings = new OpenAIEmbeddings();
-        const vectorStore = new PineconeVectorStore(pinecone, vectorIndex, embeddings, store);
+        const vectorStore = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
 
         const relevantDocs = await vectorStore.similaritySearch(queryText);
 
