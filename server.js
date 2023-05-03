@@ -10,6 +10,7 @@ const { TextLoader } = require('langchain/document_loaders/fs/text');
 const { OpenAIEmbeddings } = require('langchain/embeddings/openai');
 const { Document } = require('langchain/document');
 const path = require('path');
+const { PineconeStore } = require('langchain/vectorstores/pinecone')
 const { PineconeClient, MemoryVectorStore } = require('@pinecone-database/pinecone');
 
 dotenv.config();
@@ -40,7 +41,28 @@ const generateText = async (queryText) => {
             throw new Error('Fine-tune data not provided');
         }
 
-        console.log('Loading OpenAI model...');
+        // Load the text file
+        const __dirname = path.resolve();
+        const loader = new TextLoader(path.join(__dirname, dataFilePath));
+        const rawDoc = await loader.load();
+        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
+        const docs = [new Document({ pageContent: doc })];
+
+        // Initialize the Pinecone client
+        const pinecone = new PineconeClient();
+        await pinecone.init({
+            environment: process.env.PINECONE_ENVIRONMENT,
+            apiKey: process.env.PINECONE_API_KEY,
+        });
+        const pineconeIndex = client.Index(process.env.PINECONE_INDEX);
+
+        const vectorStore = await PineconeStore.fromExistingIndex(
+            docs,
+            new OpenAIEmbeddings(),
+            { pineconeIndex }
+        );
+
+        const results = await vectorStore.similaritySearch(queryText);
 
         // Load the OpenAI model
         const model = new OpenAI({
@@ -49,48 +71,17 @@ const generateText = async (queryText) => {
             modelName: 'text-davinci-003'
         });
 
-        console.log('Loading QA refinement chain...');
-
-        // Load the QA refinement chain
-        const chain = loadQARefineChain(model);
-
-        console.log('Loading documents...');
-
-        // Load the text file
-        const __dirname = path.resolve();
-        const loader = new TextLoader(path.join(__dirname, dataFilePath));
-        const rawDoc = await loader.load();
-        const doc = rawDoc[0].pageContent.replace(/(\r\n|\n|\r)/gm, " ");
-        const docs = [new Document({ pageContent: doc })];
-
-        console.log('Initializing Pinecone client...');
-
-        // Initialize the Pinecone client
-        // const store = new MemoryVectorStore();
-        const vectorIndex = 'dialogflow-openai-test';
-        const pinecone = new PineconeClient();
-        await pinecone.init({
-            environment: 'us-west1-gcp-free',
-            apiKey: process.env.PINECONE_API_KEY,
+        const chain = VectorDBQAChain.fromLLM(model, vectorStore, {
+            k: 1,
+            returnSourceDocuments: true,
         });
 
-        console.log('Initializing vector store...');
-        const embeddings = new OpenAIEmbeddings();
-        const vectorStore = new PineconeVectorStore(pinecone, vectorIndex, embeddings);
-
-        const relevantDocs = await vectorStore.similaritySearch(queryText);
-
-        console.log('Answering question...');
-        console.log('Question: ' + queryText);
-
-        // Use the QA refinement chain to generate the answer
         const res = await chain.call({
-            inputDocuments: relevantDocs,
-            question: queryText,
+            query: queryText,
         });
-        let text = res.outputText.trim();
 
-        console.log('Answer: ' + text);
+
+        let text = res.outputText.trim();
 
         // Process the answer to remove the question text and extra whitespace
         text = text.split('?');
@@ -99,9 +90,6 @@ const generateText = async (queryText) => {
         } else if (text.length > 0) {
             text = text[0].trim();
         }
-
-        // Store the vectors in Pinecone to prevent re-embedding
-        await vectorStore.addDocuments(docs);
 
         return {
             status: 1,
