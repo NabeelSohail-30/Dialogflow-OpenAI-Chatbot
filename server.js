@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 const generateText = async (queryText) => {
     try {
         const model = new OpenAI({});
-        const text = fs.readFileSync("./testData.txt", "utf8");
+        const text = fs.readFileSync("testData.txt", "utf8");
         const textSplitter = new RecursiveCharacterTextSplitter({ chunkSize: 1000 });
         const docs = await textSplitter.createDocuments([text]);
         const vectorStore = await HNSWLib.fromDocuments(docs, new OpenAIEmbeddings());
