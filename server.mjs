@@ -23,6 +23,11 @@ const openaiConfig = new Configuration({
 });
 const openai = new OpenAIApi(openaiConfig);
 
+// get api
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
 const generateText = async (queryText) => {
     try {
         const dataFilePath = './testData.txt';
