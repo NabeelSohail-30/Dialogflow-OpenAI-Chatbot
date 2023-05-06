@@ -41,33 +41,39 @@ const generateText = async (queryText) => {
 
         const docs = await loader.load();
         console.log('------------------Test Data Loaded------------------')
-        console.log(docs);
+        // console.log(docs);
 
         console.log("------------------Splitting documents------------------");
 
         const splitter = new RecursiveCharacterTextSplitter({
-            chunkSize: 500,
+            chunkSize: 300,
             chunkOverlap: 100,
         });
 
         const output = await splitter.splitDocuments(docs);
 
         console.log("------------------Documents splitted------------------");
-        console.log(output);
+        // console.log(output);
 
         console.log("------------------Vector store------------------");
 
-        const vectorStore = await HNSWLib.fromDocuments(output, new OpenAIEmbeddings());
+        // const vectorStore = await HNSWLib.fromDocuments(output, new OpenAIEmbeddings());
 
         console.log("------------------Vector store created------------------");
-        console.log(vectorStore);
+        // console.log(vectorStore);
+
+        // await vectorStore.save('data');
+        const loadedVectorStore = await HNSWLib.load(
+            'data',
+            new OpenAIEmbeddings()
+        );
 
         // const msg = "what is the first movie of MCU? ";
 
         console.log("------------------Similarity search------------------");
 
-        const result = await vectorStore.similaritySearch(queryText);
-        console.log(result);
+        const result = await loadedVectorStore.similaritySearch(queryText, 4);
+        // console.log(result);
 
         console.log("------------------Loading LLM------------------");
 
@@ -83,11 +89,12 @@ const generateText = async (queryText) => {
 
         console.log("------------------QA chain result------------------");
 
-        console.log(res);
+        console.log('question: ', queryText);
+        console.log('answer: ', res.text);
 
         return {
             status: 1,
-            message: res,
+            message: res.text,
         }
 
     } catch (error) {
@@ -99,7 +106,7 @@ const generateText = async (queryText) => {
     }
 };
 
-// console.log(generateText("how many capuses are there"));
+// console.log(generateText("what is ssuet?"));
 
 // Dialogflow webhook
 app.post('/webhook', async (req, res) => {
@@ -110,7 +117,7 @@ app.post('/webhook', async (req, res) => {
         if (intent === 'Default Welcome Intent') {
             res.send({
                 fulfillmentMessages: [{
-                    text: { text: [`Hi There, Welcome to Chatbot`] }
+                    text: { text: [`Hi There, Welcome to SSUET FAQ Chatbot, powered by OpenAi API and LangChain`] }
                 }]
             });
         } else if (intent === 'Default Fallback Intent') {
